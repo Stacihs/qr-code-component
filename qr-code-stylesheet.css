@@ -1,6 +1,18 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: unset;
+}
+
+img {
+  max-width: 100%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
   color: hsl(228, 45%, 44%);
 }
-`
