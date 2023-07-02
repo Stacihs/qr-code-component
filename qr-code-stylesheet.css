@@ -5,6 +5,29 @@
 
 body {
   margin: unset;
+  font-family: 'Outfit', sans-serif;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container, .row, #qrCode {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  max-width: 100%;
+}
+
+.column {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.skills {
+  text-align: center;
 }
 
 img {
