@@ -9,29 +9,63 @@ body {
 }
 
 .page-wrapper {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   background-color: hsl(212, 45%, 89%);
 }
 
-.container, .row, #qrCode {
+.container, .column, #qrCode {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+}
+
+.qrCode {
+  /*display: grid;*/
+  /*!*justify-content: center;*!*/
 }
 
 .row {
-  max-width: 100%;
+  /*max-width: 100%;*/
 }
 
 .column {
   background-color: hsl(0, 0%, 100%);
 }
 
+.main {
+  /*height: 80%;*/
+}
+
 .skills {
   text-align: center;
+  padding: 2em;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.skills p {
+  font-size: 15px;
+  font-weight: 400;
 }
 
 img {
   max-width: 100%;
+  justify-self: center;
+}
+
+footer {
+  /*display: flex;*/
+  /*align-items: flex-end;*/
 }
 
 .attribution {
