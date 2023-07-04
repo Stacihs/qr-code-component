@@ -15,7 +15,7 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-.container, .column, #qrCode {
+.container, .column, #qrCode, .row {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,17 +27,15 @@ body {
   width: 50%;
 }
 
-.qrCode {
-  /*display: grid;*/
-  /*!*justify-content: center;*!*/
-}
-
 .row {
   /*max-width: 100%;*/
 }
 
 .column {
   background-color: hsl(0, 0%, 100%);
+  border-radius: 1em;
+  height: 60%;
+  width: 50%;
 }
 
 .main {
@@ -46,7 +44,7 @@ body {
 
 .skills {
   text-align: center;
-  padding: 2em;
+  padding: 1em;
 }
 
 h1 {
@@ -56,16 +54,17 @@ h1 {
 .skills p {
   font-size: 15px;
   font-weight: 400;
+  color: hsl(220, 15%, 55%);
 }
 
 img {
-  max-width: 100%;
-  justify-self: center;
+  max-width: 90%;
+  margin: 20px;
+  border-radius: 0.75em;
 }
 
 footer {
-  /*display: flex;*/
-  /*align-items: flex-end;*/
+  margin-top: 10px;
 }
 
 .attribution {
