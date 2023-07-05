@@ -6,6 +6,7 @@
 body {
   margin: unset;
   font-family: 'Outfit', sans-serif;
+  font-size: 15px;
 }
 
 .page-wrapper {
@@ -27,33 +28,26 @@ body {
   width: 50%;
 }
 
-.row {
-  /*max-width: 100%;*/
-}
-
 .column {
   background-color: hsl(0, 0%, 100%);
   border-radius: 1em;
-  height: 60%;
   width: 55%;
-}
-
-.main {
-  /*height: 80%;*/
 }
 
 .skills {
   text-align: center;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 h1 {
   font-weight: 700;
+  margin: 10px;
 }
 
 .skills p {
-  font-size: 15px;
   font-weight: 400;
+  padding: 0 3em;
+  margin-bottom: 2em;
   color: hsl(220, 15%, 55%);
 }
 
