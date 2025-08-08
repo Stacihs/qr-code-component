@@ -4,11 +4,11 @@
 
 body {
   margin: unset;
-  font-family: "Outfit", sans-serif;
-  font-size: 15px;
 }
 
 .page-wrapper {
+  font-family: "Outfit", sans-serif;
+  font-size: .85em;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
