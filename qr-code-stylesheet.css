@@ -16,9 +16,7 @@ body {
 }
 
 .container,
-.column,
-.row,
-#qrCode {
+.row {
   display: flex;
   flex-direction: column;
   justify-content: center;
