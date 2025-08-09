@@ -16,7 +16,9 @@ body {
 }
 
 .container,
-.row {
+.column,
+.row,
+figure {
   display: flex;
   flex-direction: column;
   justify-content: center;
