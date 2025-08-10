@@ -74,10 +74,9 @@ footer {
 }
 
 /* mobile media query 375 */
-@media screen and (min-width: 375px) and (max-width: 425px) {
+  @media screen and (min-width: 23.4375em) and (max-width: 26.5625em) {
   .column {
     min-width: 85%;
-    max-height: 50%;
   }
 
   h1 {
