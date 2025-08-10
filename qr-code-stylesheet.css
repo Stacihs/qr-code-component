@@ -1,3 +1,11 @@
+
+:root {
+  --color-page-background-light-blue: hsl(212, 45%, 89%);
+  --color-column-background-white: hsl(0, 0%, 100%);
+  --color-skills-gray-blue: hsl(220, 15%, 55%);
+  --color-attribution-blue: hsl(228, 45%, 44%);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: hsl(212, 45%, 89%);
+  background-color: var(--color-page-background-light-blue);
 }
 
 .container,
@@ -31,9 +39,9 @@ figure {
 }
 
 .column {
-  background-color: hsl(0, 0%, 100%);
   border-radius: 1em;
   max-width: 55%;
+  background-color: var(--color-column-background-white);
 }
 
 figure {
@@ -54,7 +62,7 @@ h1 {
   font-weight: 400;
   padding: 0 3em;
   margin-bottom: 2em;
-  color: hsl(220, 15%, 55%);
+  color: var(--color-skills-gray-blue);
 }
 
 img {
@@ -70,10 +78,10 @@ footer {
 .attribution {
   font-size: 0.75rem;
   text-align: center;
-  color: hsl(228, 45%, 44%);
+  color: var(--color-attribution-blue);
 }
 
-/* mobile media query 375 */
+/* mobile media query 375px */
   @media screen and (min-width: 23.4375em) and (max-width: 26.5625em) {
   .column {
     min-width: 85%;
